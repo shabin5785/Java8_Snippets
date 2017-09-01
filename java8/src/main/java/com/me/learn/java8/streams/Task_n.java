@@ -1,16 +1,25 @@
-package com.me.learn.java8.lambdas;
+package com.me.learn.java8.streams;
 
-public class Task {
+import java.time.LocalDate;
+import java.util.HashSet;
+import java.util.Set;
+
+public class Task_n {
 	
 	private String name;
 	private String type;
 	private int priority;
 	
-	public Task(String name, String type, int priority) {
+
+	
+	public Task_n(String name, String type, int priority) {
 		this.name = name;
 		this.type = type;
 		this.priority = priority;
+
 	}
+	
+
 	
 	public String getName() {
 		return name;
